@@ -1,11 +1,12 @@
 /**
  * Hash a string into a number of given digits, using djb2 algorithm.
  * 
+ * todo: solve the problem of collisions
  * @param {string} str
  * @param {number} digits
  * @returns number
  */
-function stringToIngeterHash(str, digits = 9) {
+ export function stringToIngeterHash(str, digits = 9) {
   const upperLimit = Math.pow(10, digits);
   const lowerLimit = Math.pow(10, digits - 1);
   let hash = 5381;

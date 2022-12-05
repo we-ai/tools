@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Tools for Connect project",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/we-ai/connect-tools/issues"
   },
-  "homepage": "https://github.com/we-ai/connect-tools#readme"
+  "homepage": "https://github.com/we-ai/connect-tools#readme",
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "jest-environment-jsdom": "^29.3.1"
+  },
+  "dependencies": {}
 }

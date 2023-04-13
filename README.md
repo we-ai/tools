@@ -1,3 +1,3 @@
-# connect-tools
+# Tools
 
-Toos for Connect project.
+Tools for common tasks.

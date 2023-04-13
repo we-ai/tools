@@ -1,7 +1,7 @@
 {
-  "name": "connect-tools",
+  "name": "tools",
   "version": "1.0.0",
-  "description": "Tools for Connect project",
+  "description": "Tools for common tasks",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/we-ai/connect-tools.git"
+    "url": "git+https://github.com/we-ai/tools.git"
   },
   "author": "Warren Lu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/we-ai/connect-tools/issues"
+    "url": "https://github.com/we-ai/tools/issues"
   },
-  "homepage": "https://github.com/we-ai/connect-tools#readme",
+  "homepage": "https://github.com/we-ai/tools#readme",
   "devDependencies": {
     "@playwright/test": "^1.28.1",
     "jest": "^29.3.1",
